@@ -2,7 +2,7 @@
 
 ## These nodes make it easy to read and control the Kbus on the WAGO PFC200 Gen2 controller
 
-    Read and write simple analog, digital, and termpetature sensor modules directly to the Kbus on WAGO PFC200 Generation 2 controllers running Node-RED[2]
+Read and write simple analog, digital, and termpetature sensor modules directly to the Kbus on WAGO PFC200 Generation 2 controllers running Node-RED[2]
 
 ## Install
 
