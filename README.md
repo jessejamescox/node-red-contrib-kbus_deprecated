@@ -1,6 +1,6 @@
 # node-red-contrib-kbus
 
-## These nodes make it easy to pass read and control the Kbus on the WAGO PFC2200 Gen2 controller
+## These nodes make it easy to read and control the Kbus on the WAGO PFC200 Gen2 controller
 
     Read and write simple analog, digital, and termpetature sensor modules directly to the Kbus on WAGO PFC200 Generation 2 controllers running Node-RED[2]
 
