@@ -21,7 +21,7 @@ Run the following command for global install
 
 2. Install the necceasary .ipk files to the PFC by copying them to your controller, opening an SSH terminal on the PFC, and executing:
 
-	opkg install <path_to_ipk_file>
+	    opkg install <path_to_ipk>
 
 Requires [IPK FILES][2] for controller.
 
