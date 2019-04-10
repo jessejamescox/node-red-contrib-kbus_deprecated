@@ -1,0 +1,38 @@
+<script type="text/javascript">
+    RED.nodes.registerType('Digital Output',{
+        category: 'KBUS',
+        color: '#EBEDEC',
+        defaults: {
+            module: {value: "0"},
+            channel: {value: "0"},
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "iconDO.png",
+        label: function() {
+            return this.name||"Digital Output";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="Digital Output">
+    <div class="form-row">
+        <label for="node-input-module"><i class="fa fa-arrow-down"></i>Module</label>
+        <input type="text" id="node-input-module" placeholder="module number"  style="width: 150px;">
+    </div>
+    <div class="form-row">
+        <label for="node-input-channel"><i class="fa fa-arrow-down"></i>Channel</label>
+        <input type="text" id="node-input-channel" placeholder="channel number"  style="width: 150px;">
+    </div>
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="Digital Output">
+    <p>
+        Passes the bit data to local digital outputs<br/>
+    </p>
+</script>   

@@ -1,0 +1,48 @@
+{
+  "name": "node-red-contrib-kbus",
+  "version": "0.1.0",
+  "description": "A node for reading and controlling local IO on a WAGO PFC controller running NodeRED",
+  "dependencies": {},
+  "keywords": [
+    "node-red",
+    "wago",
+    "modbus",
+    "750",
+    "Thermocouple",
+    "plc",
+    "rtd",
+    "automation"
+  ],
+  "node-red": {
+    "nodes": {
+      "DigitalIn": "kbus/KBUS_DI.js",
+      "DigitalOut": "kbus/KBUS_DO.js",
+      "AnalogIn": "kbus/KBUS_AI.js",
+      "TemperatureIn": "kbus/KBUS_TEMP.js",
+      "AnalogOut": "kbus/KBUS_AO.js"
+    }
+  },
+  "_id": "node-red-contrib-kbus@0.1.0",
+  "scripts": {},
+  "_shasum": "6b765af1d442cd1367fed69f770964fca71bcffe",
+  "_from": "node-red-contrib-kbus@latest",
+  "_npmVersion": "2.15.11",
+  "_nodeVersion": "6.7.0",
+  "_npmUser": { },
+  "dist": {
+    "shasum": "6b765af1d442cd1367fed69f770964fca71bcffe",
+    "tarball": "https://registry.npmjs.org/node-red-contrib-kbus/-/node-red-contrib-kbus-0.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "jessejamescox",
+      "email": "jess.coxpdx@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/node-red-contrib-kbus-0.1.0.tgz_1478128409726_0.09052306157536805"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/node-red-contrib-kbus/-/node-red-contrib-kbus-0.1.0.tgz"
+}

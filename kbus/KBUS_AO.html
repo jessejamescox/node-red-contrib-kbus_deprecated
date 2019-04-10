@@ -1,0 +1,84 @@
+<script type="text/javascript">
+    RED.nodes.registerType('Analog Output',{
+        category: 'KBUS',
+        color: '#EBEDEC',
+        defaults: {
+            module: {value: "0"},
+            channel: {value: "0"},
+            name: {value:""},
+            sensorType: {value:"4-20mA"},
+            resolution: {value:"16_Bit"},
+            selectedProcess: {value: "Raw_Int"},
+            low: {value: "0"},
+            high: {value: "1000"}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "iconAO.png",
+        label: function() {
+            return this.name||"Analog Output";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="Analog Output">
+    <div class="form-row">
+        <label for="node-input-module"><i class="fa fa-arrow-down"></i>Module</label>
+        <input type="text" id="node-input-module" placeholder="module number"  style="width: 150px;">
+    </div>
+    <div class="form-row">
+        <label for="node-input-channel"><i class="fa fa-arrow-down"></i>Channel</label>
+        <input type="text" id="node-input-channel" placeholder="channel number"  style="width: 150px;">
+    </div>
+    <div class="form-row">
+        <label for="node-input-sensorType"><i class="icon-tag"></i> Sensor Type</label>
+        <select type="text" id="node-input-sensorType" placeholder="sensorType">
+            <option value="0-20mA">0-20mA</option>
+            <option value="4-20mA">4-20mA</option>
+            <option value="0-10VDC"> 0-10VDC</option>
+            <option value="+/-10VDC"> +/-10VDC</option>
+            <option value="0-30VDC">0-30VDC</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <label for="node-input-resolution"><i class="icon-tag"></i>Resolution</label>
+        <select type="text" id="node-input-resolution" placeholder="resolution">
+            <option value="12_Bit">12 Bit</option>
+            <option value="13_Bit">13 Bit</option>
+            <option value="13_Bit_signed">13 Bit signed</option>
+            <option value="14_Bit">14 Bit</option>
+            <option value="15_Bit">15 Bit</option>
+            <option value="15_Bit_signed">15 Bit signed</option>
+            <option value="16_Bit">16 Bit</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <label for="node-input-selectedProcess"><i class="icon-tag"></i>Process</label>
+        <select type="text" id="node-input-selectedProcess" placeholder="selectedProcess">
+            <option value="Raw">Raw Signal</option>
+            <option value="SensorVal">Actual Sensor Value</option>
+            <option value="Scaled">Scaled Value</option>            
+        </select>
+    </div>
+    <div class="form-row">
+        <label for="node-input-low"><i class="fa fa-arrow-down"></i>Scale Min</label>
+        <input type="text" id="node-input-low" placeholder="lowest number"  style="width: 150px;">
+    </div>
+    <div class="form-row">
+        <label for="node-input-high"><i class="fa fa-arrow-up"></i>Scale Max</label>
+        <input type="text" id="node-input-high" placeholder="highest number"  style="width: 150px;">
+    </div>
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+ 
+<script type="text/x-red" data-help-name="Analog Output">
+    <p>A node that formats output data for WAGO Kbus<br/>
+    
+    Select the desired module and output type, scaling, etc...<br/>
+    <br/>
+    The node is for a single channel only so rerequires only 1 numerical input .  <br/>
+    </p>
+</script>
