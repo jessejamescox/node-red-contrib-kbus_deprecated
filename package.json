@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-kbus",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "A node for reading and controlling local IO on a WAGO PFC controller running NodeRED",
   "dependencies": {},
   "keywords": [
@@ -22,6 +22,7 @@
       "AnalogOut": "kbus/KBUS_AO.js"
     }
   },
+  "license": "GPL-3.0",
   "_id": "node-red-contrib-kbus@0.1.0",
   "scripts": {},
   "_shasum": "6b765af1d442cd1367fed69f770964fca71bcffe",
@@ -36,7 +37,8 @@
   "maintainers": [
     {
       "name": "jessejamescox",
-      "email": "jess.coxpdx@gmail.com"
+      "email": "jess.coxpdx@gmail.com",
+
     }
   ],
   "_npmOperationalInternal": {

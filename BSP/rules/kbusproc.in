@@ -1,0 +1,7 @@
+## SECTION=applications
+
+config KBUSPROC
+        bool
+	prompt "Kbus Service for OS"	
+	help
+	  Programs for kbus access 
