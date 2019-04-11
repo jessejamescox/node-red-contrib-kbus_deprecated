@@ -2,9 +2,9 @@
 
 ## These nodes make it easy to read and control the Kbus on the WAGO PFC200 Gen2 controller
 
- 	A BETA open source community project to read and write simple analog, digital, and termpetature sensor modules directly to the Kbus on WAGO PFC200 Generation 2 controllers running Node-RED.
+ A BETA open source community project to read and write simple analog, digital, and termpetature sensor modules directly to the Kbus on WAGO PFC200 Generation 2 controllers running Node-RED.
 
- 	The WAGO board support package source files are included as the Kbus driver is currently beta with no expressed or implied support.
+ The WAGO board support package source files are included as the Kbus driver is currently beta with no expressed or implied support.
 
 ## Install
 
