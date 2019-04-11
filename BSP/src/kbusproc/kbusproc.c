@@ -1,11 +1,16 @@
 //-----------------------------------------------------------------------------
-//  Copyright (c) Jesse Cox 2019
+//    This program is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
 //
-//  PROPRIETARY RIGHTS are involved in the subject matter of this material.
-//  All manufacturing, reproduction, use and sales rights pertaining to this
-//  subject matter are governed by the license agreement. The recipient of this
-//  software implicitly accepts the terms of the license.  No warranty expressed
-//	or implied.  
+//    This program is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//    along with this program.  If not, see <https://www.gnu.org/licenses/>.  
 //-----------------------------------------------------------------------------
 //-----------------------------------------------------------------------------
 ///  \file     	kbusproc.c
